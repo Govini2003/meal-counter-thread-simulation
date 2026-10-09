@@ -1,4 +1,4 @@
-# Meal Counter Thread Simulation
+## Meal Counter Thread Simulation
 
 A Java multithreading simulation of the **producer-consumer problem**.
 
@@ -7,7 +7,7 @@ A **Chef** prepares meals and places them on a single-slot counter. A **Student*
 - If the counter is full, the Chef waits.
 - If the counter is empty, the Student waits.
 
-## Files
+### Files
 
 | File | Description |
 |------|-------------|
@@ -16,7 +16,7 @@ A **Chef** prepares meals and places them on a single-slot counter. A **Student*
 | `Student.java` | Consumer thread, eats 5 meals |
 | `Main.java` | Starts both threads and waits for them with `join()` |
 
-## Run
+### Run
 
 ```bash
 cd src
@@ -24,7 +24,7 @@ javac *.java
 java Main
 ```
 
-## Sample Output
+### Sample Output
 
 ```
 Chef started preparing Meal #1...
